@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Luxe Furniture</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <h2>Luxe Furniture</h2>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Get In Touch</h1>
+        <p>We'd love to hear from you</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-wrapper">
+          <!-- Contact Form -->
+          <div class="contact-form-container">
+            <h2>Send Us a Message</h2>
+            <p>
+              Fill out the form below and we'll get back to you within 24 hours
+            </p>
+
+            <div class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name</label>
+                  <input
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    placeholder="John"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name</label>
+                  <input
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    placeholder="Doe"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="john.doe@example.com"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="(555) 123-4567"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                  <option value="">Select a subject</option>
+                  <option value="general">General Inquiry</option>
+                  <option value="products">Product Information</option>
+                  <option value="order">Order Status</option>
+                  <option value="design">Design Consultation</option>
+                  <option value="custom">Custom Furniture</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="Tell us how we can help you..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary">Send Message</button>
+            </div>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="contact-info-container">
+            <h2>Contact Information</h2>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">📍</div>
+              <div class="contact-details">
+                <h3>Visit Our Showroom</h3>
+                <p>
+                  123 Furniture Street<br />New York, NY 10001<br />United
+                  States
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">📞</div>
+              <div class="contact-details">
+                <h3>Call Us</h3>
+                <p>
+                  Phone: (555) 123-4567<br />Toll-Free: (800) 555-LUXE<br />Mon-Sat:
+                  9AM - 6PM EST
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-details">
+                <h3>Email Us</h3>
+                <p>
+                  General: info@luxefurniture.com<br />Sales:
+                  sales@luxefurniture.com<br />Support:
+                  support@luxefurniture.com
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon">🕐</div>
+              <div class="contact-details">
+                <h3>Business Hours</h3>
+                <p>
+                  Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday: 10:00 AM -
+                  5:00 PM<br />Sunday: Closed
+                </p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <h3>Follow Us</h3>
+              <div class="social-icons">
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Instagram</a>
+                <a href="#" class="social-icon">Pinterest</a>
+                <a href="#" class="social-icon">Twitter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+      <div class="container">
+        <h2 class="section-title">Find Us Here</h2>
+        <div class="map-placeholder">
+          <img
+            src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1200&h=400&fit=crop"
+            alt="Store Location Map"
+          />
+          <div class="map-overlay">
+            <p>📍 123 Furniture Street, New York, NY 10001</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>What is your return policy?</h3>
+            <p>
+              We offer a 30-day return policy on all products. Items must be in
+              original condition with all packaging materials.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h3>Do you offer financing?</h3>
+            <p>
+              Yes, we offer flexible financing options with approved credit.
+              Zero-interest plans are available for purchases over $1,000.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h3>How long does delivery take?</h3>
+            <p>
+              Standard delivery takes 2-4 weeks. Express delivery options are
+              available for select items. Custom furniture typically takes 6-8
+              weeks.
+            </p>
+          </div>
+          <div class="faq-item">
+            <h3>Can I schedule a showroom visit?</h3>
+            <p>
+              Absolutely! Walk-ins are welcome during business hours, or you can
+              schedule a private consultation with one of our design experts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Luxe Furniture</h3>
+            <p>Your destination for premium home furnishings</p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <p>
+              123 Furniture Street<br />New York, NY 10001<br />Phone: (555)
+              123-4567<br />Email: info@luxefurniture.com
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Luxe Furniture. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
